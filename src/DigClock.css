@@ -1,0 +1,36 @@
+.body {
+    margin: -10px;
+    background-color: azure;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //justify-content: center;
+    //border: 2pt solid black;
+  }
+  .display {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  text{
+    font-size: 130pt;
+    color: rgb(247, 247, 247);
+    outline: #100f0f;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+    text-shadow: 7pt 4pt 10pt black;
+  }
+  h1{
+    font-size: 50pt;
+    color: rgb(242, 221, 221);
+    text-shadow: 0pt 0pt 4pt black;
+    font-weight: bold;
+    font-style: oblique;
+  }
